@@ -109,7 +109,7 @@ export const actions = {
       console.log(err)
     })
   },
-  fetchFormsOfWork ({ commit, state, dispatch }, workId) {     
+  fetchFormsOfWork ({ commit, state, dispatch }, workId) {
   },
   setWorkAsTemplate ({ commit, state, dispatch }, workId) {
     let workStr = JSON.stringify(state.work)
